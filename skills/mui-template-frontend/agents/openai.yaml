@@ -1,0 +1,4 @@
+interface:
+  display_name: "MUI Template Frontend"
+  short_description: "Adapte templates oficiais MUI com qualidade"
+  default_prompt: "Use $mui-template-frontend para selecionar e adaptar um template oficial do Material UI ao meu projeto React."

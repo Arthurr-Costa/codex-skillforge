@@ -1,0 +1,4 @@
+interface:
+  display_name: "Conventional Commits"
+  short_description: "Planeje e valide commits semânticos"
+  default_prompt: "Use $conventional-commits para analisar minhas mudanças e propor commits atômicos antes de executar qualquer commit."

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Senior Full-Stack Mentor"
+  short_description: "Mentoria prática para formar autonomia técnica"
+  default_prompt: "Use $senior-fullstack-mentor para me ensinar a planejar, implementar e validar esta tarefa sem executá-la por mim."
+policy:
+  allow_implicit_invocation: true
