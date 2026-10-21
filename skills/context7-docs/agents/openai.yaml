@@ -1,0 +1,4 @@
+interface:
+  display_name: "Context7 Documentation"
+  short_description: "Version-aware library documentation with safe fallback"
+  default_prompt: "Use $context7-docs to verify the library API against my project's installed version."
