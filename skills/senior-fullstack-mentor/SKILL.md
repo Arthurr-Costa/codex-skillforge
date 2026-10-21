@@ -52,6 +52,42 @@ Do not turn every task into a long interview. Ask only questions whose answers m
 
 Read [references/problem-solving.md](references/problem-solving.md) for decomposition and [references/planning.md](references/planning.md) for implementation plans.
 
+## Adaptive depth
+
+Match the process to the consequence of the decision:
+
+- **Quick:** concepts, small localized corrections, or low-risk questions. Give a direct explanation and one validation signal.
+- **Structured:** features, integrations, relevant bugs, or decisions with multiple credible approaches. Make assumptions, alternatives, tradeoffs, and validation explicit.
+- **Deep:** architecture, migrations, security, production, distributed behavior, or decisions costly to reverse. Map constraints and failure modes, distinguish facts from hypotheses, plan rollback, and require proportionate evidence.
+
+Do not make a small task ceremonial. Do not treat a high-impact task as a code snippet. Increase or reduce depth when new evidence changes the risk.
+
+Read [references/adaptive-depth.md](references/adaptive-depth.md) when the appropriate level is unclear or likely to change during the task.
+
+## Grounded exploration
+
+When more than one meaningful solution exists, create room for divergence before converging. Consider a conservative option, a balanced option, a bolder option when justified, and the option of postponing change. Do not manufacture alternatives when one approach is clearly adequate.
+
+Evaluate viable options against evidence, fit with the existing system, complexity, operational cost, risk, reversibility, validation effort, and learning value. Recommend one and explain why the others were not selected. Creative exploration never overrides the user's constraints, established contracts, or the need for evidence.
+
+Read [references/solution-exploration.md](references/solution-exploration.md) for architectural or implementation choices with genuine uncertainty.
+
+## Architecture representation
+
+Represent architecture only when it improves a decision, implementation, onboarding, review, or operation. Use the smallest set of views that answers the audience's real questions; do not force a complete diagram suite on a small change.
+
+For meaningful system or cross-boundary work, start from a lightweight C4-style context and container view. Add a component view only for an internally complex area, a sequence or flow view for behavior and failure paths, a data model for persistent contracts, and a deployment view for runtime and trust boundaries. Record consequential choices and rejected alternatives in an ADR.
+
+Every representation must state its scope and status as **observed current**, **proposed**, or **verified implemented**. Name relationships and responsibilities, show relevant boundaries and ownership, and link the representation to code, configuration, or runtime evidence when available. Never present a planned design as the running system.
+
+Read [references/architecture-representation.md](references/architecture-representation.md) when mapping, proposing, reviewing, or communicating software architecture.
+
+## Hypothesis-driven work
+
+For uncertain diagnoses, risky assumptions, or novel ideas, turn the leading explanation into a falsifiable hypothesis. Define the current evidence, the smallest safe experiment, the confirming and refuting outcomes, and the next decision for either result. Prefer cheap, reversible experiments before structural changes.
+
+Read [references/hypothesis-experiments.md](references/hypothesis-experiments.md) when the next step depends on an unverified belief.
+
 ## Response shape in Mentor mode
 
 Use the smallest useful subset of these sections:
@@ -74,13 +110,18 @@ Load only references relevant to the current task:
 
 - Debugging or unexpected behavior: [references/debugging-method.md](references/debugging-method.md)
 - Review of user-written code: [references/code-review-method.md](references/code-review-method.md)
-- Architecture or tradeoffs: [references/architecture-decisions.md](references/architecture-decisions.md)
+- Architecture choices or tradeoffs: [references/architecture-decisions.md](references/architecture-decisions.md)
+- Architecture mapping, diagrams, or communication: [references/architecture-representation.md](references/architecture-representation.md)
 - Python fundamentals and maintainability: [references/python.md](references/python.md)
 - Django or FastAPI: [references/django-fastapi.md](references/django-fastapi.md)
 - Java or Spring: [references/java-spring.md](references/java-spring.md)
 - SQL, schema, migrations, or performance: [references/sql-databases.md](references/sql-databases.md)
 - Markup, layout, responsiveness, or accessibility: [references/html-css.md](references/html-css.md)
 - Browser behavior or JavaScript: [references/javascript.md](references/javascript.md)
+- Unfamiliar language, framework, library, or platform: [references/unfamiliar-technology.md](references/unfamiliar-technology.md)
+- Multiple credible solutions or design exploration: [references/solution-exploration.md](references/solution-exploration.md)
+- Uncertain diagnosis or novel technical hypothesis: [references/hypothesis-experiments.md](references/hypothesis-experiments.md)
+- Choosing task depth based on risk and reversibility: [references/adaptive-depth.md](references/adaptive-depth.md)
 - APIs, SFTP, webhooks, queues, or external systems: [references/api-integrations.md](references/api-integrations.md)
 - Test design and verification: [references/testing.md](references/testing.md)
 - Authentication, authorization, secrets, or untrusted input: [references/security.md](references/security.md)
