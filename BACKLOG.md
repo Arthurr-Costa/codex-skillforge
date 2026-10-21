@@ -23,3 +23,11 @@ Atualizado em 2026-10-21. Fonte do levantamento: nota Obsidian `Ideias e melhori
 - [ ] Plugins privados: definir organizacao e distribuicao.
 
 Para cada pesquisa: fontes com data, problema atendido, proposta de integracao, conflitos com skills existentes e cenarios de validacao. Um checkbox de pacote pronto nao implica validacao conectada nem instalacao global.
+
+## Coleção selecionada e Obsidian unificado — 2026-10-21
+
+- [x] Incorporar as 19 skills individuais selecionadas nas imagens, preservando versões locais e atribuições.
+- [x] Reunir os seis módulos Obsidian em `obsidian-workflow`, com entrada única e referências internas.
+- [x] Acrescentar registro obrigatório de trabalho relevante, acompanhamento de pendências e adaptação à necessidade e privacidade do usuário.
+- [ ] Migrar a instalação global para a unificada quando solicitado; nenhuma skill antiga foi removida ou substituída nesta rodada.
+- [ ] Avaliar comportamento da unificada em jornadas reais e validar recursos opcionais no aplicativo.

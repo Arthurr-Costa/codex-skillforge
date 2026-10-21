@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian Workflow"
+  short_description: "Unified vault editing, durable records and follow-up"
+  default_prompt: "Use $obsidian-workflow to recover my project context, complete the requested vault work, and record verified progress, pending items and next action."
