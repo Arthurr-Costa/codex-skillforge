@@ -1,0 +1,297 @@
+{
+  "date": "2026-10-21",
+  "policy": "Preserve selected local versions; upstream HEADs identify attribution references, not the origin revision of local files.",
+  "packages": [
+    {
+      "folder": "tlc-spec-driven",
+      "license": "CC-BY-4.0 skill content; MIT software (see LICENSE)",
+      "local_files": {
+        "SKILL.md": "127a54fdc984939c4953d0a14120563e73f37488befcd885bb9a1dae95b18524",
+        "references/code-analysis.md": "38b571c81d98e390b9ac8947563ad19a33843db425d4ff94ad73db70a054f828",
+        "references/coding-principles.md": "8c548affbcdaa4c62bd75bf27b39a81af41ec16bd603e5e634f30771bebd4fbb",
+        "references/context-limits.md": "bff0c86980d41897b70216fa18b6a05a0c9d74a0e80940939fc0f314a55da482",
+        "references/design.md": "1c17dd93d0a5618f002300a362683c8dca74185037aa61d9aeef83b9750b5d40",
+        "references/discuss.md": "c601fedf2266047c0f6da372abafe81b35bc97e04d1b3fb15e1a2c65e4dc75ce",
+        "references/implement.md": "03ec93c9713b2ebb373c6684f6c8d62588192e865dce0c53970c2c913b9c50c4",
+        "references/lessons.md": "77cdc271f6ade34f8b47274456c72fc16731c7af9992967cfd5f548d328fb022",
+        "references/memory.md": "ade5d5550146767719c524ba3ef559bc5431c22a08fddce33bc35bc9e762bc38",
+        "references/specify.md": "99f1f5693308b8c7ee4ba1152b40f4f00b24abd57767084adaecd409a5aecc17",
+        "references/sub-agents.md": "08481bbe05cf1f29062cc504d3d4f204c10f12fc4f683c330bea8e4adb01f1b2",
+        "references/tasks.md": "8ea4731f59271029d90db8fbf1ce800333f859b32529016134fcb19de9a570c6",
+        "references/validate.md": "149b78e32927ff601fab88366f29d254020c92ca98fa7b3a147bbeaee11ff403",
+        "scripts/check_commit.py": "20a0fc0f8423b958ea7bae5eec9286d47e8593c157d87fd9d92c2f17a1464567",
+        "scripts/lessons.py": "258cdb508d9787aee1a840bf811e13637c52ef0dd76273b08fab8c19ebac9b09",
+        "scripts/validate_spec.py": "2a0b7e334d026f9556c665fbd0386cfa5b17c62a5e921fed52a9422bc27bc006",
+        "scripts/validate_state.py": "dc0997e2af32faeeb5e4cd241ce41c3a03a37c6ef25a77850557752988205d3c",
+        "scripts/validate_tasks.py": "bfa8533fc3c63e19d999ed25dd79bddeb8ead5d43dc2c0149a0cfc0d9d2bc5d7"
+      },
+      "source": "https://github.com/tech-leads-club/agent-skills.git",
+      "attribution_reference_commit": "59f94a5b1a98f3b4e0e933b8a5114606c5f73e90"
+    },
+    {
+      "folder": "technical-design-doc-creator",
+      "license": "CC-BY-4.0 skill content; MIT software (see LICENSE)",
+      "local_files": {
+        "README.md": "76142b077ce56c36af6d5662991387d9d98542073ec96a900708e6ae9b95b1a0",
+        "SKILL.md": "6e628b009e85276f8e7a63d1f323cc7ec5f7a02e261344c7df7f94e9ecfdb47b"
+      },
+      "source": "https://github.com/tech-leads-club/agent-skills.git",
+      "attribution_reference_commit": "59f94a5b1a98f3b4e0e933b8a5114606c5f73e90"
+    },
+    {
+      "folder": "domain-analysis",
+      "license": "CC-BY-4.0 skill content; MIT software (see LICENSE)",
+      "local_files": {
+        "EXAMPLES.md": "def3bcbcbfb07bd6993d609037810bc34e6cf6346687224965b5d5569e2b75ff",
+        "QUICK-REFERENCE.md": "0f777f837158dae3ebeaef703082b980be6de37c1a2d99a44f8d898c34ba0213",
+        "README.md": "6cb3cd441c7f8f52f24ae52f44e89c224eeccbe2546f92cf40e2d971660ede27",
+        "SKILL.md": "12c21b8e654ce878bc85252b0a5ae3ceed0c26f6bb1d586996413aade6bae15c"
+      },
+      "source": "https://github.com/tech-leads-club/agent-skills.git",
+      "attribution_reference_commit": "59f94a5b1a98f3b4e0e933b8a5114606c5f73e90"
+    },
+    {
+      "folder": "coupling-analysis",
+      "license": "CC-BY-4.0 skill content; MIT software (see LICENSE)",
+      "local_files": {
+        "SKILL.md": "0986a72daf05cf9c3fc242f6fabdf23dd6aeac1069c2c4cbd9e409b539c09234"
+      },
+      "source": "https://github.com/tech-leads-club/agent-skills.git",
+      "attribution_reference_commit": "59f94a5b1a98f3b4e0e933b8a5114606c5f73e90"
+    },
+    {
+      "folder": "gh-address-comments",
+      "license": "Apache-2.0 (included LICENSE.txt)",
+      "local_files": {
+        "LICENSE.txt": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "SKILL.md": "c1ebc337357402f7faabafe712e0c463981a65f736453efe52abd305bcb74769",
+        "agents/openai.yaml": "8b9f604d79717d5aec58abfb192f2d713c45b5558f5572255d9f9e5d39877ee0",
+        "assets/github-small.svg": "ee05e92d373d4d84f4612af3c1090ef67698d421bbe30896a4ed5a00cb86a069",
+        "assets/github.png": "d55a9baa41798d8b5108e3058df3a5bda09914ea9fd73b49929cc38a8832424f",
+        "scripts/fetch_comments.py": "d7bc64f6b26f7482f9ca9dd7c923a5b8b20e1ef13491ae2d9052cd208a7c1ad1"
+      },
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/gh-address-comments",
+      "packaging_changes": [
+        "No source changes in this task. Local snapshot may contain prior adaptations; original source revision is unknown."
+      ]
+    },
+    {
+      "folder": "apple-design",
+      "license": "MIT",
+      "local_files": {
+        "SKILL.md": "77bb63b7043bb93aca2ff4ab040c249484eef35682bb6ff7163433c31d30adc7"
+      },
+      "source": "https://github.com/emilkowalski/skills.git",
+      "attribution_reference_commit": "2d228630ba1446365f614a108cb8252f1feda202"
+    },
+    {
+      "folder": "gpt-tasteskill",
+      "license": "MIT",
+      "local_files": {
+        "SKILL.md": "2e64c269953f2656c21bf5a0fa6b4568e82fe0c72b36e8f84758e090349966a5"
+      },
+      "source": "https://github.com/Leonxlnx/taste-skill-classics.git",
+      "attribution_reference_commit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305"
+    },
+    {
+      "folder": "soft-skill",
+      "license": "MIT",
+      "local_files": {
+        "SKILL.md": "e1e32f5e2d420872c6c7332b53d5ff7721946766b78c4822b424c2d512c8fdbc"
+      },
+      "source": "https://github.com/Leonxlnx/taste-skill-classics.git",
+      "attribution_reference_commit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305"
+    },
+    {
+      "folder": "minimalist-skill",
+      "license": "MIT",
+      "local_files": {
+        "SKILL.md": "36bc7328f085405f43b476938e62460fa573bf7e984e949e072bcf014831a44c"
+      },
+      "source": "https://github.com/Leonxlnx/taste-skill-classics.git",
+      "attribution_reference_commit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305"
+    },
+    {
+      "folder": "brutalist-skill",
+      "license": "MIT",
+      "local_files": {
+        "SKILL.md": "fffbaac8597f07679e9d87145533567658aedba3b5eca6f16a7075a333048caa"
+      },
+      "source": "https://github.com/Leonxlnx/taste-skill-classics.git",
+      "attribution_reference_commit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305"
+    },
+    {
+      "folder": "redesign-skill",
+      "license": "MIT",
+      "local_files": {
+        "SKILL.md": "98ad3e5b051bfb71b2795f7e8a6aa0d32b51ee095606c098a4b2822ac07926c9"
+      },
+      "source": "https://github.com/Leonxlnx/taste-skill.git",
+      "attribution_reference_commit": "6010f91a9935f1c167dfc500fb1a475681892e6b"
+    },
+    {
+      "folder": "stitch-skill",
+      "license": "MIT",
+      "local_files": {
+        "DESIGN.md": "0ab6740c4ebb1966dbceddb823a66d4bf027e960efbd73faca56cbf8370ae2ad",
+        "SKILL.md": "46bdb08fee2dded38b6ba0a051230a502d6ac6e4044afd47592cb40c256028b5"
+      },
+      "source": "https://github.com/Leonxlnx/taste-skill-classics.git",
+      "attribution_reference_commit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305"
+    },
+    {
+      "folder": "brandkit",
+      "license": "MIT",
+      "local_files": {
+        "SKILL.md": "b0c4837e1bd140ca816ae54948754ddd2ac1e2a4d3619363777a80caf00b2ede"
+      },
+      "source": "https://github.com/Leonxlnx/imagegen-skills.git",
+      "attribution_reference_commit": "beb16b0d0f4dae9a6f5cb04ea41e97b93a54ab8e"
+    },
+    {
+      "folder": "image-to-code-skill",
+      "license": "MIT",
+      "local_files": {
+        "SKILL.md": "4c060a8064a8b13380bc2ef3d6e6a1d0b1e316aa093cd9807d0ce9e4eeb037fa"
+      },
+      "source": "https://github.com/Leonxlnx/imagegen-skills.git",
+      "attribution_reference_commit": "beb16b0d0f4dae9a6f5cb04ea41e97b93a54ab8e"
+    },
+    {
+      "folder": "imagegen-frontend-web",
+      "license": "MIT",
+      "local_files": {
+        "SKILL.md": "6b5c2256522fdba1e3313eafa3d743b960a7b13ec029d3e6586e04b23327c1f8"
+      },
+      "source": "https://github.com/Leonxlnx/imagegen-skills.git",
+      "attribution_reference_commit": "beb16b0d0f4dae9a6f5cb04ea41e97b93a54ab8e"
+    },
+    {
+      "folder": "imagegen-frontend-mobile",
+      "license": "MIT",
+      "local_files": {
+        "SKILL.md": "8a33389979f3074fa0926678e266ad2eb9234624472254469fc1ad916b9caa24"
+      },
+      "source": "https://github.com/Leonxlnx/imagegen-skills.git",
+      "attribution_reference_commit": "beb16b0d0f4dae9a6f5cb04ea41e97b93a54ab8e"
+    },
+    {
+      "folder": "react-best-practices",
+      "license": "MIT (upstream README declaration)",
+      "local_files": {
+        "AGENTS.md": "fc93e7421177bbf869cce892bc60a6c83a4517d974bc3bf65c4e2c1e58a6ccf6",
+        "README.md": "9eafb2123d3b8b2aef41fba0db2648a3f4f49996f8c7c8bb2c86263befd8b48a",
+        "SKILL.md": "71ed7794962fa6e803ee83030517b5b93a9f70fbfeb431ec4535c5480a8d8355",
+        "metadata.json": "c4e18bac3290fbe1b471a605867d4df68b03144ea26b8befdbe8f9d8fd124354",
+        "rules/_sections.md": "01c59969e4e867f0708c8f8ef9c6d87fab9a07d0586244f429ff84013db8a115",
+        "rules/_template.md": "99df2a3ea088c6c22de2484ddc7e964d0e9923846f44c63380343ecc64455442",
+        "rules/advanced-effect-event-deps.md": "55ed8f9f27a1bff803d6fa55828176207714b02123cbb97ddb8a90d88024a723",
+        "rules/advanced-event-handler-refs.md": "a3097edeecfb2ff6851cd66ed8cdf0617c3c88180504bee824aa6e75a215bbbc",
+        "rules/advanced-init-once.md": "3e4dc22173eb0e2b6dcf583e3babd862b8696328f8f59aee7c4d746c5bc05f6c",
+        "rules/advanced-use-latest.md": "8a3f64dfe5a77d1564248faf17fe662ae75b55d497a243cb30b38eb07ccbbf9a",
+        "rules/async-api-routes.md": "523338540d73427dc14c0cbb19f2741ebccdf8b105a7b2c1b33d2905cf237a42",
+        "rules/async-cheap-condition-before-await.md": "03107c1f70a293cd58a8abc5474c5548e20ea4efdf01b6d45aae7ad0ac1cb32c",
+        "rules/async-defer-await.md": "f3c142d090615abdcc99d31c123be37b31f0f1ed8d9ec9f7789a3bc6883ae0fb",
+        "rules/async-dependencies.md": "16ef469f877e30c6b8e1e1b4bc3e527312fa3c6318cb785a4eca186ea236131a",
+        "rules/async-parallel.md": "6d2f841896279e976dfcdc1ac89e70771ac188baadfd43c096b5706cb838b961",
+        "rules/async-suspense-boundaries.md": "de05fedac2eb7ae563b887b5a424464ec3dfaf84e5b7797467ebe2a796ac8afc",
+        "rules/bundle-analyzable-paths.md": "62090b5c815fd71bf1133dce754f51abc16a9456d0ccd025fd627de27726e92a",
+        "rules/bundle-barrel-imports.md": "e648f6d54525f07a691357040ca5bff6ea3424788a91ff63812adb29622a671b",
+        "rules/bundle-conditional.md": "09c8259c3efb04fc0abb8e412ccbda217c222ae8118516283e571c995fe3a7d4",
+        "rules/bundle-defer-third-party.md": "3719fb47b191e8db4fe22686ec88448ad5af9e6838585425abbe103d0b642e37",
+        "rules/bundle-dynamic-imports.md": "401817a7369f315fc5a68a1095742ff7d53d0461906880dc9d64a41495ee1986",
+        "rules/bundle-preload.md": "d1f7cc28da7cd5ab249acd287edc5b761afcfb194e9cb62cd44c5f3543db2de2",
+        "rules/client-event-listeners.md": "242a873349febc1ce685e85617994784dbab92c2eaa68aed7fed5a83e7680e93",
+        "rules/client-localstorage-schema.md": "0fb7cdf9dc93fdf22f87e3669f953fb9d4ac9b0be42eec4a29fe9a2560610b88",
+        "rules/client-passive-event-listeners.md": "1f35016f9053de69e884ee9be00654e37979c2ca85f5e57764dc2626ff7acb4b",
+        "rules/client-swr-dedup.md": "644652c39c6cc00de8d1c77a7273612e868dc3f7edda30764164c12ec0f764a3",
+        "rules/js-batch-dom-css.md": "480b891b9eaf96e929dc1e964274a4828e3a78009b7d00ccd965a0d425215959",
+        "rules/js-cache-function-results.md": "3daaa11d24f4295cb6be8bc6f407f2ce83cc7b5bd1f0e68891ea8ab835721dc7",
+        "rules/js-cache-property-access.md": "73e47431e74878a927061bf0ddc7cd91a7556cb35d2573f3421e82300d9ae311",
+        "rules/js-cache-storage.md": "11b826b0433898c1ece2d3547010d8e77db9fb240185748c45db91493de9b6cc",
+        "rules/js-combine-iterations.md": "71add08aeeb43091d4ff4c0b2842cce8b4bdef8ad3e732cc034bb5a84827e746",
+        "rules/js-early-exit.md": "925ce5ce87f3347186ca62212f29cc6baa2b8c85a96d2720ad07c3d0abf781c0",
+        "rules/js-flatmap-filter.md": "9e5b166a41914d975bef7635467f8fb32cd98b5c3126c0bc6f163490812fb5f0",
+        "rules/js-hoist-regexp.md": "f9e9aef2f7c2307dd7310f283df85dcada45fc43e9bb941b0c3aa414dec21ec4",
+        "rules/js-index-maps.md": "5df1bdc2cfabb2c98abd55d26762e5c18189535c2e686184f426082e62920391",
+        "rules/js-length-check-first.md": "8b54a311c826b299272f29187fc58bc55772a04c4a72eeb29456ee96dc9fc624",
+        "rules/js-min-max-loop.md": "87dfb67e2f39df6ad8bcfb5b78c5fb364d3c07554ad188a202408d99f3763421",
+        "rules/js-request-idle-callback.md": "ee08f83905b4011abbc33d594033157d77561b5bbd9b36b04f0f409581ffec32",
+        "rules/js-set-map-lookups.md": "a7fd781a6ba9ad49065961b6f9a90ef486bf6b648390e1a08704025f98e1642b",
+        "rules/js-tosorted-immutable.md": "d0a5e1b0fec48a0a81397957e2f068e224329f7c42cb5feeed8aae6fa64025e8",
+        "rules/rendering-activity.md": "1e5e7eaf3555e61d6a2e900089c676527d26259501db5594f59544b6c664f85a",
+        "rules/rendering-animate-svg-wrapper.md": "9c6ae0ca7a51434e803887c64cded760956579a1452ccb80a461a03f9c937c77",
+        "rules/rendering-conditional-render.md": "2ec2fa23c4148285144687050c52369adba3da2fbe3d486f8d3e0aad8f06f2bc",
+        "rules/rendering-content-visibility.md": "64eee6d5b916fe74df33363994b27fc7f71bea3bcedc7ee04bda23107ca3e6e4",
+        "rules/rendering-hoist-jsx.md": "93b229560fae92005ed9a2a829064607b39b2e984e92d221d05b2d41df2b7c0e",
+        "rules/rendering-hydration-no-flicker.md": "dc7ab358c67c177bca6e6f360fbc935ebe4efa928c0ba3ebd3f9f3d9e2000ca3",
+        "rules/rendering-hydration-suppress-warning.md": "915bacb934e2927d84b37a3f3d225a47b309ac8f9e494ed2bcb66ce07c5676a2",
+        "rules/rendering-resource-hints.md": "351b1095d641717b930f1b2253282b7120af3023bc74e06c17675168d4286864",
+        "rules/rendering-script-defer-async.md": "4cea07b7875ba7fc2c7465ff23b63a2bb334f90aaf2d9293d38d67b05fdb32ab",
+        "rules/rendering-svg-precision.md": "ed468533f6e95f622859c884b122cf21f9f593ed6bb3d500a54de4b9f9bcb9fb",
+        "rules/rendering-usetransition-loading.md": "3a1249c3f13026b6f54ab5712c388df219d6af01b12aa542749acd99a46f4bc1",
+        "rules/rerender-defer-reads.md": "234050a77faf50cb306be10a9e15bd4421134ab5907e75f13e6d78e2bd262dc9",
+        "rules/rerender-dependencies.md": "17eb5830956fb56486fd3cfc7431f5849d39751730c05ad9e77dd4f0c27169c5",
+        "rules/rerender-derived-state-no-effect.md": "cb11ec76f50aa7b6847269f02d79b120c889a30d9ecd2c1d578f75144419c77a",
+        "rules/rerender-derived-state.md": "1c326bb67b01fb084eb00c8911b0a7cff54681c2315b629f88e49b64eaa6481d",
+        "rules/rerender-functional-setstate.md": "5e68df6b2ae8058e67f476ff1ac67bde159f5a9d18df439e46eabcdeb7b52e58",
+        "rules/rerender-lazy-state-init.md": "4ae844740f266fc8cbf050701230286624a2440ec5be67b9a63d9edc3c580573",
+        "rules/rerender-memo-with-default-value.md": "81c47476564ad8a79fc68fc442734255ca7d6829424359464503fda0a9f9a0dd",
+        "rules/rerender-memo.md": "1f258990c2f27ff6256b3cc5c43300631bb3f0d81f749aed08d07fcdcc131dd1",
+        "rules/rerender-move-effect-to-event.md": "abc2cbf167bee056743023351e96806a411d3398da8802093620aecf0721f029",
+        "rules/rerender-no-inline-components.md": "1cc32907a770272524ba682eef9e7efdd8ad4533b6f89b718a1fcd7d1d0eb6a3",
+        "rules/rerender-simple-expression-in-memo.md": "5bdcf2d1558ba5204e643c887b7b4060f89630969425651eb68e96427d97f800",
+        "rules/rerender-split-combined-hooks.md": "6f45d703343484ef9acef9388397f3642966ae6a5a258899a0cf1f9977cfbf6c",
+        "rules/rerender-transitions.md": "60f4033909a62df5e5b8c601494f9e50a562e2f8c1c2d81eac24f38142265f1c",
+        "rules/rerender-use-deferred-value.md": "8c3579576a61a949884167745dcfaf1d5426ba305cc61fd0a79602d70fda4909",
+        "rules/rerender-use-ref-transient-values.md": "f1a649af9d1d0b5c762f6c9c4c1c70c90d7df82aa10296ee87aadb78c1b76c54",
+        "rules/server-after-nonblocking.md": "d0b8d24a3db9f0f65f9e2bddbf230b0e03a5f60e1229d93a4a18f5e7a991c7c2",
+        "rules/server-auth-actions.md": "a2ca8aa102839251c7971ec784560fab943c20b36fe6f80365d4110c13260c23",
+        "rules/server-cache-lru.md": "1924b64561841923b88a657085097a0aeba3e0ba2d5470b9f5c15cc10d6ae70f",
+        "rules/server-cache-react.md": "fddeea6c870bb3da4134b61d54b7d09b83d2603f929b7547cd3dc1dc269edd5c",
+        "rules/server-dedup-props.md": "c2747424cdac46be62f835f245a0aa887b0090b416d28e2ac8676702645eeb37",
+        "rules/server-hoist-static-io.md": "5abea4dd882b13661bd5f7dfb93f9e547d5f08176c61c448ade91b210ed5d49f",
+        "rules/server-no-shared-module-state.md": "4d869bf1cd2f1632e5ca4c0e64b1cf0e71c5f5a0f940bc8a22174d205e735ed7",
+        "rules/server-parallel-fetching.md": "569a2e9fc04f9606686cd75c5894ef8781b502786a7fffe241396846c7733472",
+        "rules/server-parallel-nested-fetching.md": "ad5d9656984d4a959997a2367bf59cc6632297b4634a1dd13a087939d83f30b3",
+        "rules/server-serialization.md": "f4c7d68b29c82381baad059c4a7f09e868e71ec9c3115a26ad3ae7d24c0dfe1f"
+      },
+      "source": "https://github.com/vercel-labs/agent-skills.git",
+      "attribution_reference_commit": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "packaging_changes": [
+        "AGENTS.md: correct three relative rule links and add a change notice."
+      ]
+    },
+    {
+      "folder": "composition-patterns",
+      "license": "MIT (upstream README declaration)",
+      "local_files": {
+        "AGENTS.md": "89e3ddd58fcf99a53a50e25dfd21b8cde1be5f10b7df6bacd3dfa6796932f516",
+        "README.md": "85915a43a6f0b4efe525e3cf6398dd866166da2025837c4460468a24a940da94",
+        "SKILL.md": "e38e0eaa609316b10423a9a138ed95e35099accd3f735585295c8a8f165c28a3",
+        "metadata.json": "49262ed5cb4186f31ee980cf8d990be0170c51efed4908d0464a1cff9905bd05",
+        "rules/_sections.md": "a174213b87e6911e2b766995a2cbaf8d1534057076e82fb79fe3f0ecb38047df",
+        "rules/_template.md": "587f7d16b0660eb61fee4a4d3d7df2b3077d6835de170602c7d6e60bee559131",
+        "rules/architecture-avoid-boolean-props.md": "007555ebb020f4d552582a2c4db194db71a1fd33094012e5187bcfa4f8c392d5",
+        "rules/architecture-compound-components.md": "f246af13dc269b521cf20eb8ad99a0cb645beac381c8c9b117262c34612c8457",
+        "rules/patterns-children-over-render-props.md": "7c45a0d21b3c4126a32cba916ee31adeae195386ad1dbbe6634aedb7457aa0ad",
+        "rules/patterns-explicit-variants.md": "8c19e596e61807549d01ce8c6954c6358199f97a8511c0c02c625ec0efda8c0e",
+        "rules/react19-no-forwardref.md": "881830adb7534c4b2d70db426556646ad9837f5478f744f35641f635ada22227",
+        "rules/state-context-interface.md": "09e73afbf9285fa416679cc864a287b9e8b821d0969272ab784295386d8c9bc3",
+        "rules/state-decouple-implementation.md": "76a8c1eb29a70d8996ab3f71260345af2f7bc89deab815a421d6c87c6591a9c3",
+        "rules/state-lift-state.md": "74c54038a6c554c748fe31cec673b80861b5d920b7553cf78cdf10d18b4b759b"
+      },
+      "source": "https://github.com/vercel-labs/agent-skills.git",
+      "attribution_reference_commit": "063bee94c3f4df8453406c830b0a7df0f2860278"
+    },
+    {
+      "folder": "web-design-guidelines",
+      "license": "MIT (upstream README declaration)",
+      "local_files": {
+        "SKILL.md": "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f"
+      },
+      "source": "https://github.com/vercel-labs/agent-skills.git",
+      "attribution_reference_commit": "063bee94c3f4df8453406c830b0a7df0f2860278"
+    }
+  ]
+}
