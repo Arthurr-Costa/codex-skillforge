@@ -1,11 +1,12 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-11-16",
   "policy": "Preserve selected local versions; upstream HEADs identify attribution references, not the origin revision of local files.",
   "packages": [
     {
       "folder": "arquitetura-software",
-      "license": "Não especificada",
+      "license": "MIT (see LICENSE)",
       "local_files": {
+        "LICENSE": "6f331a75b63d626465b2f93d43d52afe7ec6ea6ff28926f564a5df4ad63fa5f2",
         "SKILL.md": "349841252b4ecf8c01eaf06c2374d4b7601c51092f031c5692f3ec3cd530c6e5",
         "agents/openai.yaml": "20799591a16c566f3cff2d8b453df586d11a5254131054ffa3cdc90b0f425d97",
         "assets/adr.md": "89c48fbebf8188d99887b648c08ccb411617888e1a8488c496de4bd95fd73a9e",
@@ -199,7 +200,7 @@
       "folder": "react-best-practices",
       "license": "MIT (upstream README declaration)",
       "local_files": {
-        "AGENTS.md": "fc93e7421177bbf869cce892bc60a6c83a4517d974bc3bf65c4e2c1e58a6ccf6",
+        "AGENTS.md": "727319374bc180e1d0bebae3b7818761c7458d3fe734e14d759e623327d60ac8",
         "README.md": "9eafb2123d3b8b2aef41fba0db2648a3f4f49996f8c7c8bb2c86263befd8b48a",
         "SKILL.md": "71ed7794962fa6e803ee83030517b5b93a9f70fbfeb431ec4535c5480a8d8355",
         "metadata.json": "c4e18bac3290fbe1b471a605867d4df68b03144ea26b8befdbe8f9d8fd124354",

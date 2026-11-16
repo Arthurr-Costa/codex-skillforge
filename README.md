@@ -4,11 +4,11 @@ Coleção de skills para desenvolvimento, arquitetura, revisão, design e acompa
 
 ## Catálogo
 
-A coleção contém **26 skills**. Os nomes abaixo são os declarados no frontmatter; algumas pastas preservam os nomes usados pela instalação local.
+A coleção contém **27 skills**. Os nomes abaixo são os declarados no frontmatter; algumas pastas preservam os nomes usados pela instalação local.
 
 | Skill | Pasta | Finalidade |
 |---|---|---|
-| [`arquitetura-software`](skills/arquitetura-software/SKILL.md) | Projeto, revisão e documentação de arquitetura de software |
+| `arquitetura-software` | [`arquitetura-software`](skills/arquitetura-software/SKILL.md) | Projeto, revisão e documentação de arquitetura de software |
 | `apple-design` | [`apple-design`](skills/apple-design/SKILL.md) | Gestos, movimento e princípios de interface Apple para a web |
 | `brandkit` | [`brandkit`](skills/brandkit/SKILL.md) | Identidade visual, sistemas de logo e apresentações de marca |
 | `industrial-brutalist-ui` | [`brutalist-skill`](skills/brutalist-skill/SKILL.md) | Interfaces de estética industrial e brutalista |
@@ -49,6 +49,7 @@ A obrigatoriedade de registro aplica-se a trabalho relevante e autorizado, propo
 As versões locais selecionadas foram preservadas, com suas referências e ferramentas. O [manifesto da coleção](COLLECTION-MANIFEST.json) registra hashes dos arquivos locais e fontes de atribuição. O commit upstream consultado não é apresentado como revisão original de uma instalação cuja origem exata não foi estabelecida.
 
 - Pacotes Tech Leads Club: conteúdo de skills sob CC-BY-4.0 e software sob MIT, conforme licença incluída e atribuição em cada pacote.
+- `arquitetura-software`: criação original desta coleção, distribuída sob MIT conforme licença incluída no pacote.
 - Pacotes Leonxlnx, Emil Kowalski, Vercel e módulos de Steph Ango: MIT, com autoria preservada nos avisos de cada pacote. A declaração MIT de Vercel está no README upstream; o aviso incluído materializa esses termos.
 - `gh-address-comments`: Apache-2.0, com licença original preservada.
 - `security-audit`: pacote Cloudflare sob MIT; a revisão incorporada está em seu UPSTREAM.md.
