@@ -8,6 +8,7 @@ A coleção contém **26 skills**. Os nomes abaixo são os declarados no frontma
 
 | Skill | Pasta | Finalidade |
 |---|---|---|
+| [`arquitetura-software`](skills/arquitetura-software/SKILL.md) | Projeto, revisão e documentação de arquitetura de software |
 | `apple-design` | [`apple-design`](skills/apple-design/SKILL.md) | Gestos, movimento e princípios de interface Apple para a web |
 | `brandkit` | [`brandkit`](skills/brandkit/SKILL.md) | Identidade visual, sistemas de logo e apresentações de marca |
 | `industrial-brutalist-ui` | [`brutalist-skill`](skills/brutalist-skill/SKILL.md) | Interfaces de estética industrial e brutalista |
