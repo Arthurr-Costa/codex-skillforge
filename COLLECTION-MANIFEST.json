@@ -1,7 +1,28 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-11-16",
   "policy": "Preserve selected local versions; upstream HEADs identify attribution references, not the origin revision of local files.",
   "packages": [
+    {
+      "folder": "arquitetura-software",
+      "license": "MIT (see LICENSE)",
+      "local_files": {
+        "LICENSE": "6f331a75b63d626465b2f93d43d52afe7ec6ea6ff28926f564a5df4ad63fa5f2",
+        "SKILL.md": "349841252b4ecf8c01eaf06c2374d4b7601c51092f031c5692f3ec3cd530c6e5",
+        "agents/openai.yaml": "20799591a16c566f3cff2d8b453df586d11a5254131054ffa3cdc90b0f425d97",
+        "assets/adr.md": "89c48fbebf8188d99887b648c08ccb411617888e1a8488c496de4bd95fd73a9e",
+        "assets/cenarios-qualidade.md": "e8f088db4f0f137fc3da51242d52c0556ff5d97b3af54236d678b72563f9c495",
+        "assets/parecer-arquitetural.md": "cf12dd6b7b6065802c624eaac3e34b9b60052e2467fa88493d8942670dd7278d",
+        "references/avaliacao-e-evolucao.md": "5c9c29a95fd84ead64959e99b256debc680274fb52c2422ccfb6b51aaa1e7aa4",
+        "references/backend-e-automacoes.md": "fa4eaf4d316c2508e2903f926aebf2f94af95fd9d4cdbec640587f62dd87f263",
+        "references/dados-e-sistemas-distribuidos.md": "02abbe1236b039a2b47f160233c57f55152250df153199e795525d9be53819bd",
+        "references/estilos-e-decisoes.md": "79940e91a445b6116844ef433b70670e809759e8954ae0e75b3472dfdc9d1f93",
+        "references/fontes.md": "277e5b5eeae7906abce921784f171c14585fe75a5f28a96c31a61de3146c234e",
+        "references/fundamentos.md": "52051ff509e1214abcba4fa063f2902c0c1c7b20d27ac91f0255f1600f3cdf2a",
+        "references/qualidade-e-operacao.md": "752103a6665d464d064cc01779a1419948e6f052bfc91b0ad63a4e299a274b5a",
+        "references/trilha-de-estudo.md": "24c3237e1f55db3789754caac3841a2720e0941e0b5f2e57427df715dd98837c"
+      },
+      "source": "Criação original para esta coleção"
+    },
     {
       "folder": "tlc-spec-driven",
       "license": "CC-BY-4.0 skill content; MIT software (see LICENSE)",
@@ -179,7 +200,7 @@
       "folder": "react-best-practices",
       "license": "MIT (upstream README declaration)",
       "local_files": {
-        "AGENTS.md": "fc93e7421177bbf869cce892bc60a6c83a4517d974bc3bf65c4e2c1e58a6ccf6",
+        "AGENTS.md": "727319374bc180e1d0bebae3b7818761c7458d3fe734e14d759e623327d60ac8",
         "README.md": "9eafb2123d3b8b2aef41fba0db2648a3f4f49996f8c7c8bb2c86263befd8b48a",
         "SKILL.md": "71ed7794962fa6e803ee83030517b5b93a9f70fbfeb431ec4535c5480a8d8355",
         "metadata.json": "c4e18bac3290fbe1b471a605867d4df68b03144ea26b8befdbe8f9d8fd124354",

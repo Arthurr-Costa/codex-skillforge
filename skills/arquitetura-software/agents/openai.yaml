@@ -1,0 +1,4 @@
+interface:
+  display_name: "Arquitetura de Software"
+  short_description: "Decisões de arquitetura com evidências e trade-offs"
+  default_prompt: "Use $arquitetura-software para avaliar este sistema, comparar alternativas e justificar a arquitetura com requisitos, riscos e validação."
